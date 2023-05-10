@@ -191,3 +191,6 @@ jQuery(function ($) {
 	});
 
 });
+setTimeout(function(){
+      $('.antiCls-xs').css("visibility", "visible");
+  }, 800);

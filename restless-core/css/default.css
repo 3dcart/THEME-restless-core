@@ -1,6 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
 	display: flex;
@@ -13,6 +14,18 @@ body {
 }
 .page-content {
 	flex: 1 0 auto;
+}
+.flex-direction-nav a, .flex-viewport {
+	transform: translateZ(0);
+	will-change: transform;
+}
+.homeCarousel img{
+    width:100%;
+}
+@media (max-width: 767px) {
+	.antiCls-xs { 
+		visibility: hidden; 
+	}
 }
 footer {
 	flex-shrink: 0;
