@@ -22,6 +22,7 @@ body {
 .homeCarousel img{
     width:100%;
 }
+#mobSearch{display:none !important}
 @media (max-width: 767px) {
 	.antiCls-xs { 
 		visibility: hidden; 
